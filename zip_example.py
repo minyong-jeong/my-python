@@ -16,7 +16,6 @@ def dir_zip(dir_path, dest_path):
     except Exception as e:
         print("[ERROR] >>> %s" % e)
         return False
-
     return True
 
 def extract_zip(target_zip, dest_path):
@@ -26,3 +25,5 @@ def extract_zip(target_zip, dest_path):
             zf.close()
     except Exception as e:
         print("[ERROR] >>> %s" % e)
+        return False
+    return True
