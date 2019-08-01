@@ -1,3 +1,3 @@
-# MY Python
+# Hello Python
 
-💾 my python example codes~
+💾 Hello Python 💾
