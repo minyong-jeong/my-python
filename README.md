@@ -1,3 +1,3 @@
 # Hello Python
 
-💾 Hello Python 💾
+Hello Python 👩‍💻 👨‍💻
