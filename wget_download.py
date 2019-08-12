@@ -14,8 +14,4 @@ def download(url, out_path="."):
 
 if __name__ == "__main__":
     url = "https://github.com/minyong-jeong/minyong-jeong.github.io/raw/master/images/ryan.jpg"
-    paths = ["test1.jpg", "test2.jpg", "test3.jpg"]
-    for path in paths:
-        print("Downloading %s..." % path)
-        download(url, path)
-        print("")
+    download(url)
