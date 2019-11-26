@@ -53,6 +53,6 @@ class SSHManager:
 if __name__ == "__main__":
     ssh_manager = SSHManager()
     ssh_manager.create_ssh_client("hostname", "username", "password")
-    ssh_manager.send_file("local_file_path", "server_dir")
-    # ssh_manager.get_file('server_file_path', 'lcocal_dir')
+    ssh_manager.send_file("local_path", "remote_path")
+    # ssh_manager.get_file('remote_path', 'local_path')
     ssh_manager.close_ssh_client()
