@@ -1,9 +1,9 @@
 import random
 
-def rock_sizer_paper():
-    rsp_list = ['rock', 'sizer', 'paper']
+def rock_scissors_paper():
+    rsp_list = ['rock', 'scissors', 'paper']
     
-    user_input = input("Please enter your choice(rock, sizer, paper): ").lower()
+    user_input = input("Please enter your choice(rock, scissors, paper): ").lower()
     if user_input not in rsp_list:
         print('[ERR] Input is incorrect')
         return
@@ -28,4 +28,4 @@ def rock_sizer_paper():
     print(result)
 
 if __name__ == "__main__":
-    rock_sizer_paper()
+    rock_scissors_paper()
