@@ -1,8 +1,11 @@
-from flask import Flask, render_template, request
+from flask import Flask, request
 from werkzeug.utils import secure_filename
+
+UPLOAD_DIR = "D:/"
+
 app = Flask(__name__)
 
-@app.route('/upload')
+@app.route('/')
 def render_file():
     return """
     <!DOCTYPE html>
@@ -10,23 +13,23 @@ def render_file():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Upload</title>
+        <title>File Upload</title>
     </head>
     <body>
-        <form action="http://localhost:5000/fileUpload" method="POST" enctype="multipart/form-data">
+        <form action="http://localhost:5000/file-upload" method="POST" enctype="multipart/form-data">
             <input type="file" name="file">
             <input type="submit">
         </form>
     </body>
     </html>"""
 
-@app.route('/fileUpload', methods=['GET', 'POST'])
+@app.route('/file-upload', methods=['GET', 'POST'])
 def upload_files():
     if request.method == 'POST':
         f = request.files['file']
-        path = "D:/" + secure_filename(f.filename)
+        path = UPLOAD_DIR + secure_filename(f.filename)
         f.save(path)
-        return '%s -> File upload complete' % path
+        return 'File upload complete %s' % path
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug = True)
