@@ -66,4 +66,8 @@ body {
     .container {
         width: 100%;
     }
+
+    #my-table th, #my-table td {
+        font-size: 14px;
+    }
 }
