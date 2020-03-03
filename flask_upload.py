@@ -1,12 +1,14 @@
+import os
 from flask import Flask, request
 from werkzeug.utils import secure_filename
 
 UPLOAD_DIR = "D:/"
 
 app = Flask(__name__)
+app.config['UPLOAD_DIR'] = UPLOAD_DIR
 
 @app.route('/')
-def render_file():
+def upload_main():
     return """
     <!DOCTYPE html>
     <html>
@@ -27,9 +29,10 @@ def render_file():
 def upload_files():
     if request.method == 'POST':
         f = request.files['file']
-        path = UPLOAD_DIR + secure_filename(f.filename)
+        fname = secure_filename(f.filename)
+        path = os.path.join(app.config['UPLOAD_DIR'], fname)
         f.save(path)
-        return 'File upload complete %s' % path
+        return 'File upload complete (%s)' % path
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug = True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
