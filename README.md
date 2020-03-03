@@ -1,6 +1,6 @@
 # Hello Python 🐍
 
-> "Life is too short, You need Python 🐍"
+> <span style="font-family:Papyrus; font-size:2em;">"Life is too short, You need Python 🐍"</span>
 
 Hello Python is a repository for python example codes.
 
