@@ -1,4 +1,4 @@
-# Hello Python 👩‍💻 👨‍💻
+# Hello Python 🐍
 
 > "Life is too short, You need Python 🐍"
 
