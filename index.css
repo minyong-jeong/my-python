@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'BMEULJIRO';
-    src:url('fonts/BMEULJIROTTF.ttf');
-    src:url('fonts/BMEULJIRO.otf');
-}
-
 body {
-    font-family: 'BMEULJIRO';
+    font-family: 'Calibri';
     background-color: #fcfcfc;
 }
 
@@ -23,7 +17,7 @@ body {
     width: 100%;
     font-size: 16px;
     padding: 12px 10px 12px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(194, 194, 194);
     margin-bottom: 5px;
 }
 
@@ -35,12 +29,12 @@ body {
 
 #my-table th, #my-table td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(194, 194, 194);
     text-align: left;
 }
 
 #my-table th {
-    background-color: #86a1fc;
+    background-color: #34558b;
     color: white;
 }
 
@@ -54,8 +48,8 @@ body {
 }
 
 #my-table tr:hover {
-    background-color: red;
-    color: white;
+    background-color: rgb(230, 230, 230);
+    transition: ease-in-out 0.2s;
 }
 
 .content {
