@@ -1,15 +1,6 @@
 import hashlib
 
 def calc_file_hash(path):
-    """
-    Calculate file hash.
-
-    Args:
-        path (str): file path for calculating hash.
-
-    Returns:
-        str: file hash
-    """
     f = open(path, 'rb')
     data = f.read()
     hash = hashlib.md5(data).hexdigest()

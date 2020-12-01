@@ -4,10 +4,8 @@ from markupsafe import escape
 
 app = Flask(__name__)
 
-# Set the secret key to some random bytes.
 app.secret_key = b'SeCrEt_KeY'
 
-# Set session expiration.
 @app.before_request
 def make_session_permanent():
     session.permanent = True
