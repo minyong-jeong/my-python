@@ -1,7 +1,7 @@
 # Hello Python 🐍
 
 [![author](https://img.shields.io/badge/Author-minyong--jeong-blue?style=flat-square)](https://minyong-jeong.github.io/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fminyong-jeong%2Fhello-python&count_bg=%234E7FC0&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fminyong-jeong%2Fhello-python&count_bg=%234E7FC0&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=true)](https://hits.seeyoufarm.com)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
 [![lisence](https://img.shields.io/github/license/minyong-jeong/hello-python?style=flat-square)](https://github.com/minyong-jeong/hello-python/blob/master/LICENSE)
 
