@@ -60,15 +60,12 @@ body {
 
 #my-table tr {
     background-color: white;
+    cursor: pointer;
 }
 
 #my-table tr:hover {
     background-color: rgb(230, 230, 230);
     transition: ease-in-out 0.2s;
-}
-
-.content {
-    cursor: pointer;
 }
 
 @media screen and (max-width: 640px) {
