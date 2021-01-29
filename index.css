@@ -23,8 +23,17 @@ body {
 
 #my-table {
     width: 100%;
+    table-layout: fixed;
     border: 1px solid #ddd;
     border-collapse: collapse;
+}
+
+#my-table tr th:nth-child(1), #my-table tr td:nth-child(1) {
+    width: 35%;
+}
+
+#my-table tr th:nth-child(2), #my-table tr td:nth-child(2) {
+    width: 65%;
 }
 
 #my-table th, #my-table td {
@@ -36,6 +45,12 @@ body {
 #my-table th {
     background-color: #34558b;
     color: white;
+}
+
+#my-table td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #my-table td a {
