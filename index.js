@@ -44,7 +44,7 @@ window.onload = () => {
 }
 
 function tableFilter() {
-    let filter, table, tr, td, i, txtValue;
+    let filter, tr, td, i, txtValue;
     filter = document.getElementById("my-input").value.toUpperCase();
     
     tr = table.getElementsByTagName("tr");
