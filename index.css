@@ -28,11 +28,11 @@ body {
     border-collapse: collapse;
 }
 
-#my-table tr th:nth-child(1), #my-table tr td:nth-child(1) {
+#my-table tr th:nth-child(1) {
     width: 35%;
 }
 
-#my-table tr th:nth-child(2), #my-table tr td:nth-child(2) {
+#my-table tr th:nth-child(2) {
     width: 65%;
 }
 
