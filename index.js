@@ -1,5 +1,6 @@
 const myInput = document.getElementById("my-input");
 myInput.addEventListener("keyup", tableFilter);
+window.onload = init;
 
 function tableFilter() {
     let filter, table, tr, td, i, txtValue;
@@ -21,4 +22,8 @@ function tableFilter() {
             }
         }       
     }
+}
+
+function init() {
+    document.getElementById("my-input").value = "";
 }
