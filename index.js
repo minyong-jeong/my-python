@@ -35,9 +35,11 @@ const dic = {
     "zip_example.py"            : "Create/Extract zip file",
 }
 
+const title = document.getElementById("title");
 const myInput = document.getElementById("my-input");
 const table = document.getElementById("my-table");
 
+title.onclick = () => location.href="https://github.com/minyong-jeong/hello-python";
 myInput.addEventListener("keyup", tableFilter);
 window.onload = () => {
     document.getElementById("my-input").value = "";
