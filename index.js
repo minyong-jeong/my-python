@@ -29,6 +29,7 @@ const dic = {
     "ssh_connect.py"            : "SSH connection example code",
     "tail_example.py"           : "Log tailing",
     "threading_example.py"      : "Python thread example code",
+    "unique_chars.py"           : "Check if a string contains all unique chars",
     "wget_download.py"          : "file download using wget",
     "windows_process_check.py"  : "Process exists check in windows",
     "zip_example.py"            : "Create/Extract zip file",
