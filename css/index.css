@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'NanumGothic';
+    src:url('../fonts/NanumBarunpen/NanumBarunpenB.ttf');
+}
+
+* {
+    font-family: 'NanumGothic';
+}
+
 body {
-    font-family: 'Calibri';
     background-color: #fcfcfc;
 }
 
@@ -16,7 +24,6 @@ body {
 #title {
     text-align: center;
     user-select: none;
-    margin-bottom: 12px;
 }
 
 #my-input {
@@ -25,7 +32,7 @@ body {
     font-size: 16px;
     padding: 12px 10px 12px 10px;
     border: 1px solid rgb(209, 209, 209);
-    margin-top: 12px;
+    margin-top: 14px;
     margin-bottom: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -53,7 +60,7 @@ body {
 
 #my-table th,
 #my-table td {
-    padding: 12px 15px;
+    padding: 10px 10px;
     text-align: left;
 }
 
