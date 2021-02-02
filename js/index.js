@@ -17,6 +17,7 @@ const dic = {
     "insertion_sort.py"         : "Insertion sort",
     "is_same_file.py"           : "Check if two files are same",
     "json_util.py"              : "Covert dict to json",
+    "log_tail.py"               : "Log tailing example",
     "logger.py"                 : "python logging example",
     "make_dir.py"               : "Make directory",
     "md5_tree.py"               : "Make MD5 tree of directory",
