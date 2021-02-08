@@ -2,6 +2,7 @@
 const dic = {
     "abs.py"                    : "Get absolute number",
     "archive_example.py"        : "Create/Extract archive file",
+    "arg_parser.py"             : "Argument parser example",
     "bubble_sort.py"            : "Bubble sort",
     "calc_file_hash.py"         : "Get MD5 checksum of a file",
     "encrypt_password.py"       : "Password encryption using Fernet",
