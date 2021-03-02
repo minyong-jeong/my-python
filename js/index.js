@@ -75,7 +75,7 @@ function createTable() {
     var row = table.insertRow(-1);
     row.setAttribute(
       "onclick",
-      `location.href='https://github.com/minyong-jeong/hello-python/blob/master/${key}'`
+      `location.href='https://github.com/minyong-jeong/python/blob/master/${key}'`
     );
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
